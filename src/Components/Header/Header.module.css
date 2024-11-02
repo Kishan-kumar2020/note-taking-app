@@ -1,0 +1,28 @@
+.header__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__widgets {
+    display: flex;
+    gap: 10px;
+}
+
+.header__widgetsSearch {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.header__widgetsSearch:focus-visible {
+    outline: none;
+    border: 2px solid #000;
+}
+
+.header__widgetsMode {
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

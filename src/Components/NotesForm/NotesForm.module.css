@@ -1,0 +1,40 @@
+.notesForm__wrapper {
+    width: 750px;
+    height: 250px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    justify-items: center;
+    box-shadow: 2px 2px 2px  #000;
+}
+
+.notesForm__title, .notesForm__content {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.notesForm__titleInput {
+    padding: 5px;
+}
+
+.notesForm__titleInput, .notesForm__contentInput{
+    border-radius: 5px;
+    border: 2px solid darkgray;
+}
+
+.notesForm__contentInput {
+    width: 710px;
+    height: 60px;
+    max-width: 710px;
+    max-height: 60px;
+}
+
+.notesForm__button {
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

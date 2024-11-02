@@ -1,0 +1,34 @@
+.noteItem__wrapper {
+    position: relative;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px brown;
+}
+
+.noteItem__title {
+    font-weight: bold;
+}
+
+.notesItem__deleteBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    inset: -15px -15px auto auto;
+    opacity: 0;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.noteItem__wrapper:hover .notesItem__deleteBtn {
+    opacity: 1;
+}
